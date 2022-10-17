@@ -2,7 +2,7 @@
 
 PORT=8080
 UUID=30f987b6-4e00-11ed-bdc3-0242ac120002 
-WebPage=https://github.com/wulabing/3DCEList/archive/master.zip
+WebPage=https://bing.com
 CaddyConfig=https://raw.githubusercontent.com/bsefwe/Rail/main/etc/Caddyfile
 XRayConfig=https://raw.githubusercontent.com/bsefwe/Rail/main/etc/xray.json
 Xray_Newv=`wget --no-check-certificate -qO- https://api.github.com/repos/XTLS/Xray-core/tags | grep 'name' | cut -d\" -f4 | head -1 | cut -b 2-`
